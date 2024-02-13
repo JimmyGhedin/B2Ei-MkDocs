@@ -1,0 +1,40 @@
+site_name: B2Ei - Centre d'aide
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+  language: fr
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline 
+        name: Passer en mode sombre
+      primary: teal
+      accent: purple 
+    - scheme: slate 
+      toggle:
+        icon: material/toggle-switch
+        name: Passer en mode clair
+      primary: teal
+      accent: blue
+
+plugins:
+  - social
+
+extra:
+  social:
+    - icon: fontawesome/brands/facebook
+      link: https://www.facebook.com/B2EI28
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/b2ei-chartres
+
+copyright: |
+  &copy; 2024 B2Ei
